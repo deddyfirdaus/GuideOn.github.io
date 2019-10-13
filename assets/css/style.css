@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,900');
+
+
+@media screen and (min-width: 500px){
+    div{
+        width: 200px;
+    }
+    .sidebar{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    div{
+        width: 500px;
+    }
+    .sidebar{
+        display: block;
+    }
+}
+nav{
+
+}
+.navbar{
+    padding-left: 2%;
+    border-radius: -1%;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.navbar a{
+    color: #1BA61B;
+}
+.navbar-default{
+    border: none;
+    border-radius: 0;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: #147D14;
+    background-color: #fff;
+}
+
+.navbar-brand{
+    margin-top: -5%;
+}
+.container {
+    margin-top: 5%;
+
+}
+
+section#banner {
+    padding: 0%;
+    height: 700px;
+    background-image: url("../img/bgHome.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section#banner.h2{
+    font-family: "'Roboto', sans-serif", sans-serif;
+    color: #fff;
+    }
