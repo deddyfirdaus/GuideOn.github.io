@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GuideOn.github.io.iml" filepath="$PROJECT_DIR$/.idea/GuideOn.github.io.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../.idea/KULIAH.iml" filepath="$PROJECT_DIR$/../../../.idea/KULIAH.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../SEMESTER 5/PEMWEB/PROJECT AKHIR/PBW-V/.idea/PBW-V.iml" filepath="$PROJECT_DIR$/../../../SEMESTER 5/PEMWEB/PROJECT AKHIR/PBW-V/.idea/PBW-V.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../REFRENSI/ngotakid-master/.idea/ngotakid-master.iml" filepath="$PROJECT_DIR$/../REFRENSI/ngotakid-master/.idea/ngotakid-master.iml" />
     </modules>
   </component>
 </project>
