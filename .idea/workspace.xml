@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1423be5-fa28-449b-bce9-c7b75d006d0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/GuideOn.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GuideOn.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peta.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeUser.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../REFRENSI/ngotakid-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../REFRENSI/Coba" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,7 +81,10 @@
       <workItem from="1570957131460" duration="5007000" />
       <workItem from="1570968926554" duration="187000" />
       <workItem from="1571319316169" duration="39000" />
-      <workItem from="1571321113257" duration="6658000" />
+      <workItem from="1571321113257" duration="10768000" />
+      <workItem from="1571362251931" duration="3361000" />
+      <workItem from="1571373305306" duration="23000" />
+      <workItem from="1571408480641" duration="5198000" />
     </task>
     <servers />
   </component>

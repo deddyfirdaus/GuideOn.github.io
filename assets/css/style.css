@@ -38,18 +38,22 @@
     display: block;
   }
 }
+a{
+    text-decoration: none;
+}
 
 body {
     font-family: 'Source Sans Pro';
     background-color: white;
     margin:0;
-    color:white;
+    color: #8e9191;
 }
 
 nav {
     height: auto;
     /*min-height: 50px;*/
     background: #FFF;
+    color: #1e88e5;
 }
 
 nav:after {
@@ -67,6 +71,9 @@ nav .logo {
 nav .logo img {
     max-height: 30px;
 }
+.logo{
+    float: left;
+}
 
 nav ul {
     display: inline-block;
@@ -76,7 +83,10 @@ nav ul {
 }
 
 nav ul li {
-float: left;
+    float: right;
+    padding-right: 30px;
+    padding-bottom: auto;
+    text-decoration: none;
 }
 
 #banner img {
@@ -169,4 +179,53 @@ float: left;
 
 #labelcheck{
   color: #000;
+}
+
+.about{
+    list-style: none;
+}
+
+
+section .container .deskripsi {
+    display:grid;
+    list-style-type:none;
+    padding:2%;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    margin-left: 20%;
+}
+
+
+footer .about {
+    display:grid;
+    list-style-type:none;
+    margin:0;padding:0;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-area: footer;
+}
+
+#peta{
+    background-position: center;
+    background-size: cover;
+}
+
+#maukemana{
+    max-width: 1200px;
+    background-color:white;
+    color: #8e9191;
+    border: 2px solid;
+    padding: 6px 25px;
+    text-align: left;
+    font-size: 18px;"
+}
+
+#guidedeket{
+    width: 1350px;
+    background-color:#353a50;
+    color: #8e9191;
+    border: 2px solid;
+    padding: 15px 25px;
+    text-align: left;
+    font-size: 12px;
 }
