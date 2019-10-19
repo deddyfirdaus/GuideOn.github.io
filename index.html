@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
+    <link rel="icon" type="image/png" href="assets/img/guideonsq.png">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 </head>
 
@@ -13,13 +14,13 @@
 <nav>
     <div class="container">
         <div class="navbar">
-            <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt=""></a></div>
-                <ul>
-                    <li><a href="#" onclick="show_daftar();" class="btn register">Register</a></li>
-                    <li><a href="#" onclick="show_masuk();" class="btn login">Log In</a></li>
-                </ul>
-            </div>
+            <div class="navbar-brand"><a href="index.html"><img src="assets/img/guideon.png" alt=""></a></div>
+            <ul>
+                <li><a href="#" onclick="show_daftar();" class="btn register">Register</a></li>
+                <li><a href="#" onclick="show_masuk();" class="btn login">Log In</a></li>
+            </ul>
         </div>
+    </div>
 </nav>
 
 <section id="banner">
@@ -41,38 +42,38 @@
 
 <section>
     <div class="container">
-    <div class="deskripsi">
-        <h1>
-            What Is GuideOn?
-        </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-            Alias beatae deleniti id minus? Aliquid aut consequatur, <br>
-            dolores doloribus eum incidunt maiores minima molestiae<br>
-            nobis quasi quo sunt totam ullam unde?<br> Let's get started
-        </p>
-    </div>
+        <div class="deskripsi">
+            <h1>
+                What Is GuideOn?
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                Alias beatae deleniti id minus? Aliquid aut consequatur, <br>
+                dolores doloribus eum incidunt maiores minima molestiae<br>
+                nobis quasi quo sunt totam ullam unde?<br> Let's get started
+            </p>
+        </div>
 
-    <div class="deskripsi">
-        <h1>
-            What Is GuideOn?
-        </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-            Alias beatae deleniti id minus? Aliquid aut consequatur, <br>
-            dolores doloribus eum incidunt maiores minima molestiae<br>
-            nobis quasi quo sunt totam ullam unde?<br> Let's get started
-        </p>
-    </div>
+        <div class="deskripsi">
+            <h1>
+                What Is GuideOn?
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                Alias beatae deleniti id minus? Aliquid aut consequatur, <br>
+                dolores doloribus eum incidunt maiores minima molestiae<br>
+                nobis quasi quo sunt totam ullam unde?<br> Let's get started
+            </p>
+        </div>
 
-    <div class="deskripsi">
-        <h1>
-            What Is GuideOn?
-        </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-            Alias beatae deleniti id minus? Aliquid aut consequatur, <br>
-            dolores doloribus eum incidunt maiores minima molestiae<br>
-            nobis quasi quo sunt totam ullam unde?<br> Let's get started
-        </p>
-    </div>
+        <div class="deskripsi">
+            <h1>
+                What Is GuideOn?
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                Alias beatae deleniti id minus? Aliquid aut consequatur, <br>
+                dolores doloribus eum incidunt maiores minima molestiae<br>
+                nobis quasi quo sunt totam ullam unde?<br> Let's get started
+            </p>
+        </div>
 
     </div>
 </section>
@@ -81,21 +82,21 @@
     <footer>
         <ul>
             <div class="about">
-            <span>About GuideOn</span>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Contact Us</a></li>
+                <span>About GuideOn</span>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Contact Us</a></li>
             </div>
 
             <div class="about">
-            <span>Follow Us</span>
-            <li><i class="fa fa-instagram fa-fw"></i><a href="#">@guideon</a></li>
-            <li><i class="fa fa-facebook fa-fw"></i><a href="#">guideontravel</a></li>
-            <li><i class="fa fa-twitter fa-fw"></i><a href="#">@guideon</a></li>
+                <span>Follow Us</span>
+                <li><i class="fa fa-instagram fa-fw"></i><a href="#">@guideon</a></li>
+                <li><i class="fa fa-facebook fa-fw"></i><a href="#">guideontravel</a></li>
+                <li><i class="fa fa-twitter fa-fw"></i><a href="#">@guideon</a></li>
             </div>
         </ul>
 
-        <div class="butom">
+        <div class="bottom">
             <p>© 2019 GuideOn. All Rights Reserved</p>
         </div>
     </footer>
@@ -104,7 +105,7 @@
 <div id="black"></div>
 <div class="popup" id="poplogin">
     <a onclick="hilangkan_semua();" id="close">X</a>
-    <h3>Masuk</h3>
+    <h3>Log In</h3>
     <form action="login">
         <input type="text" name="username" class="inputtext single" placeholder="Username / Email">
         <input type="password" name="password" class="inputtext single" placeholder="Password">
@@ -113,13 +114,13 @@
             <option value="1">Tourist</option>
             <option value="2">Guide</option>
         </select>
-        <input type="submit" value="MASUK" class="btn ijo fw balok">
+        <input type="submit" value="Log In" class="btn-masuk">
     </form>
 </div>
 
 <div class="popup" id="popregister">
     <a onclick="hilangkan_semua();" id="close">X</a>
-    <h3>Daftar</h3>
+    <h3>Sign Up</h3>
     <form action="Daftar">
         <select name="" class="dd">
             <option value="0">Register As</option>
@@ -133,7 +134,7 @@
         <input type="password" name="confpass" class="inputtext single" placeholder="Repaeat Password">
         <input type="checkbox" name="check" id="check"><label id="labelcheck" for="check">By clicking Sign Up, you
         agree to our Terms, Data Policy and Cookie Policy. </label>
-        <input type="submit" value="Sign Up" class="btn ijo fw balok">
+        <input type="submit" value="Sign Up" class="btn-masuk">
     </form>
 </div>
 

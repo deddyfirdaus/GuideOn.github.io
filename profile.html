@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
+    <link rel="icon" type="image/png" href="assets/img/guideonsq.png">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+<div id="bio">
+
+    <nav>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-brand">
+                    <a href="homeUser.html">
+                        <img src="assets/img/guideon.png" alt="">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="inbox.html">Inbox</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="saved.html">Saved</a></li>
+                    <li><a href="homeUser.html">Near Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div id="profile">
+
+                <br>
+                <h1>Profile</h1>
+
+                <div class="foto-profile">
+                    <img src="assets/img/mbake.png">
+                </div>
+
+                <div class="bio">
+                    <h3 type="text" class="personal">Personal Details</h3>
+                    <table>
+                        <tr>
+                            <td>Full Name</td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;Upin Ipin Itulah dia</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;kakros@gamil.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone Number</td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;62857xxxxxxx</td>
+                        </tr>
+                        <tr>
+                            <td>Addres</td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;Addres</td>
+                        </tr>
+                    </table>
+
+                    <button type="button" class="btn-beguide"> Become a Guide </button>
+
+                </div>
+
+                <div class="profil-btn">
+
+                    <button type="button" class="collapsible">Payment Methods</button>
+
+                    <div class="content">
+
+                        <label class="select">Credit Card
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="select"> <img src='assets/img/guideonsq.png'> Manual Transfer
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="select">Virtual Account
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="select">E-Wallet
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <button type="button" class="btn-add-pay"> <a href="addPay.html"> Add New Payment Menthod </a></button>
+
+                    </div>
+
+                    <button type="button" class="collapsible">Change Password</button>
+                    <div class="content">
+                        <div class="form-pass">
+                        <input type="password" name="pass" class="inputtext single" placeholder="Password">
+                        <input type="password" name="pass" class="inputtext single" placeholder="New Password">
+                        <input type="password" name="pass" class="inputtext single" placeholder="Repaeat New Password">
+                        <button type="button" class="btn-repass"> Save Change </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
+
+</body>
+</html>

@@ -4,10 +4,7 @@
 @media only screen and (max-width: 500px) {
 
     body {
-        grid-template-areas:
-            "header"
-            "footer"
-            "body";
+        grid-template-areas: "header" "footer" "body";
     }
 
 }
@@ -15,10 +12,7 @@
 @media only screen and (max-width: 500px) {
 
     body {
-        grid-template-areas:
-            "header"
-            "footer"
-            "body";
+        grid-template-areas: "header" "footer" "body";
     }
 
     ul, .container {
@@ -27,26 +21,27 @@
     }
 
     .container {
-        text-align:center;
+        text-align: center;
     }
 
 }
 
 @media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
+    .navbar a {
+        float: none;
+        display: block;
+    }
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 body {
     font-family: 'Source Sans Pro';
     background-color: white;
-    margin:0;
     color: #8e9191;
+    grid-area: body;
 }
 
 nav {
@@ -54,6 +49,7 @@ nav {
     /*min-height: 50px;*/
     background: #FFF;
     color: #1e88e5;
+    box-sizing: border-box;
 }
 
 nav:after {
@@ -62,16 +58,17 @@ nav:after {
     clear: both;
 }
 
-nav .logo {
+nav .navbar-brand {
     padding: 7.5px;
     display: inline-block;
     float: left;
 }
 
-nav .logo img {
+nav .navbar-brand img {
     max-height: 30px;
 }
-.logo{
+
+.navbar-brand {
     float: left;
 }
 
@@ -82,11 +79,25 @@ nav ul {
     float: right;
 }
 
+.navbar ul li a:hover,
+.navbar ul li a:active {
+    color: #FFFFFF;
+    background-color: rgba(42, 171, 210, 0.09);
+    padding: 15px;
+}
+
+
+.navbar ul li a:visited{
+    color: #2aabd2;
+}
+
 nav ul li {
     float: right;
-    padding-right: 30px;
+    padding-right: 50px;
     padding-bottom: auto;
     text-decoration: none;
+    box-sizing: border-box;
+    font-size: 15px;
 }
 
 #banner img {
@@ -127,6 +138,10 @@ nav ul li {
     border-radius: 5px;
 }
 
+#poplogin, #popregister h3{
+text-align: center;
+}
+
 .popup #close {
     position: absolute;
     right: -10px;
@@ -151,15 +166,15 @@ nav ul li {
 }
 
 .inputtext {
-    width: 100%;
+    width: 96.5%;
     padding: 10px;
     border: 1px solid #ddd;
-    /*margin: 5px 0;*/
     transition: .3s ease;
+    margin-right: 10px;
 }
 
 .inputtext:focus {
-  padding-left: 15px;
+    padding-left: 15px;
     border: 1px solid #1e88e5;
     /*margin: 5px 0;*/
 }
@@ -177,19 +192,38 @@ nav ul li {
     border: 1px solid #ddd;
 }
 
-#labelcheck{
-  color: #000;
+#labelcheck {
+    color: #000;
+    font-size: 12px;
 }
 
-.about{
+#poplogin .btn-masuk{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #3aa8ff;
+    border: none;
+}
+
+#popregister .btn-masuk{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #3aa8ff;
+    border: none;
+}
+
+
+.about {
     list-style: none;
 }
 
-
 section .container .deskripsi {
-    display:grid;
-    list-style-type:none;
-    padding:2%;
+    display: grid;
+    list-style-type: none;
+    padding: 2%;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
     margin-left: 20%;
@@ -197,35 +231,249 @@ section .container .deskripsi {
 
 
 footer .about {
-    display:grid;
-    list-style-type:none;
-    margin:0;padding:0;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
+    display: grid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
     grid-area: footer;
 }
 
-#peta{
+footer .bottom{
+    text-align: center;
+    font-size: 14px;
+}
+
+#peta {
     background-position: center;
     background-size: cover;
 }
 
-#maukemana{
+#maukemana {
     max-width: 1200px;
-    background-color:white;
+    background-color: white;
     color: #8e9191;
     border: 2px solid;
     padding: 6px 25px;
     text-align: left;
-    font-size: 18px;"
+    font-size: 18px;
+" padding:
 }
 
-#guidedeket{
+#guidedeket {
     width: 1350px;
-    background-color:#353a50;
+    background-color: #353a50;
     color: #8e9191;
     border: 2px solid;
     padding: 15px 25px;
     text-align: left;
     font-size: 12px;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+
+#bio {
+    background-color: #ccdae8;
+}
+
+.bio {
+    margin-left: 35%;
+    margin-bottom: 9%;
+
+}
+
+.bio h3 {
+    margin-top: 8%;
+
+
+}
+
+#profile h1 {
+    text-align: center;
+}
+
+.container #profile {
+    grid-area: body;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 4%;
+}
+
+.container #profile .foto-profile img {
+    max-height: 200px;
+    max-width: 200px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100px;
+    float: left;
+}
+
+.collapsible {
+    background-color: #a3deff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.active, .collapsible:hover {
+    background-color: #cbeaff;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #fff;
+    object-position: left;
+}
+
+.content .btn-add-pay {
+    background-color: #3aa8ff;
+    color: #fff;
+    border: none;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+
+}
+
+.active, .content .btn-add-pay:hover {
+    background-color: #0ec9ff;
+}
+.content .btn-add-pay a:visited{
+    color: #fff;
+}
+.content .form-pass{
+margin-right: 7%;
+    margin-left: 5%;
+}
+
+.content .btn-repass {
+    background-color: #3aa8ff;
+    color: #fff;
+    border: none;
+    float: right;
+    margin-bottom: 5%;
+    padding: 10px;
+    margin-top: 2%;
+
+}
+
+.active, .content .btn-repass:hover {
+    background-color: #0ec9ff;
+}
+
+.bio .btn-beguide {
+    background-color: #3aa8ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 2%;
+}
+
+.active, .bio .btn-beguide:hover {
+    background-color: #0ec9ff;
+}
+
+
+/* ----------Radio Button di Payment -------------- */
+.select {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.select img {
+    max-height: 20px;
+    max-width: 20px;
+}
+
+.select input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.select:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.select input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.select input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.select .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/*clear fix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
 }
