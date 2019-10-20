@@ -87,7 +87,7 @@ nav ul {
 }
 
 
-.navbar ul li a:visited{
+.navbar ul li a:visited {
     color: #2aabd2;
 }
 
@@ -138,8 +138,8 @@ nav ul li {
     border-radius: 5px;
 }
 
-#poplogin, #popregister h3{
-text-align: center;
+#poplogin, #popregister h3 {
+    text-align: center;
 }
 
 .popup #close {
@@ -197,7 +197,7 @@ text-align: center;
     font-size: 12px;
 }
 
-#poplogin .btn-masuk{
+#poplogin .btn-masuk {
     width: 100%;
     margin: 10px 0;
     padding: 10px;
@@ -206,7 +206,7 @@ text-align: center;
     border: none;
 }
 
-#popregister .btn-masuk{
+#popregister .btn-masuk {
     width: 100%;
     margin: 10px 0;
     padding: 10px;
@@ -240,34 +240,78 @@ footer .about {
     grid-area: footer;
 }
 
-footer .bottom{
+footer .bottom {
     text-align: center;
     font-size: 14px;
 }
 
-#peta {
+#peta img{
     background-position: center;
-    background-size: cover;
+    background-size:cover;
+    width: 100%;
 }
 
-#maukemana {
-    max-width: 1200px;
-    background-color: white;
-    color: #8e9191;
-    border: 2px solid;
-    padding: 6px 25px;
-    text-align: left;
-    font-size: 18px;
-" padding:
+.where {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+.where #place{
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+.where #date {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 80%;
+    margin-bottom: 1px;
+}
+
+.where #time {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 1px;
+    float: right;
+}
+
+.jamtgl{
+    display: flex;
+    grid-template-columns: repeat(2, auto);
+}
+
+.icon {
+    padding: 10px;
+    background: #79c8ff;
+    color: white;
+    min-width: 20px;
+    text-align: center;
+}
+
+.inputtext {
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    height: 10px;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
 }
 
 #guidedeket {
     width: 1350px;
     background-color: #353a50;
-    color: #8e9191;
+    color: #FFFFFF;
     border: 2px solid;
-    padding: 15px 25px;
-    text-align: left;
+    padding: 25px 25px;
+    text-align: center;
     font-size: 12px;
 }
 
@@ -284,6 +328,7 @@ footer .bottom{
     background-color: #ccdae8;
 }
 
+
 .bio {
     margin-left: 35%;
     margin-bottom: 9%;
@@ -292,8 +337,6 @@ footer .bottom{
 
 .bio h3 {
     margin-top: 8%;
-
-
 }
 
 #profile h1 {
@@ -363,11 +406,13 @@ footer .bottom{
 .active, .content .btn-add-pay:hover {
     background-color: #0ec9ff;
 }
-.content .btn-add-pay a:visited{
+
+.content .btn-add-pay a:visited {
     color: #fff;
 }
-.content .form-pass{
-margin-right: 7%;
+
+.content .form-pass {
+    margin-right: 7%;
     margin-left: 5%;
 }
 
@@ -394,8 +439,137 @@ margin-right: 7%;
     margin-top: 2%;
 }
 
-.active, .bio .btn-beguide:hover {
+.active, .btn-beguide:hover {
     background-color: #0ec9ff;
+}
+
+.bio .btn-beguide a:visited {
+    color: #FFFFFF;
+}
+
+#pay {
+    background-color: #d8e2e8;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.container #payment {
+    width: 70%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1%;
+    padding: 3%;
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+.container #payment h1{
+    text-align: center;
+}
+
+.container #payment .form-pay {
+    object-position: center;
+    position: center;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+#payment .btn-add-pay {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #3aa8ff;
+    border: none;
+}
+
+#payment .inputtext {
+    width: 97%;
+    border: 1px solid #ddd;
+    transition: .3s ease;
+}
+
+#payment .dd {
+    background-color: #3aa8ff;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #fff;
+    transition: .3s ease;
+}
+
+
+#becomeguide {
+    background-color: #d8e2e8;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.container #guide {
+    width: 70%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1%;
+    padding: 3%;
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+
+.container #guide h1{
+    text-align: center;
+}
+
+.container #guide .form-guide {
+    object-position: center;
+    position: center;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+#guide .btn-add-guide {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #3aa8ff;
+    border: none;
+}
+
+#guide .inputtext {
+    width: 97%;
+    border: 1px solid #ddd;
+    transition: .3s ease;
+}
+
+#guide .dd {
+    background-color: #3aa8ff;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #fff;
+    transition: .3s ease;
+}
+
+#guide #myFile {
+    background-color: #3aa8ff;
+    width: 97%;
+    color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #fff;
+    transition: .3s ease;
+}
+
+#guide .btn-add-guide a:visited{
+    color: #FFFFFF;
 }
 
 

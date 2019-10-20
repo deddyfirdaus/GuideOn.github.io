@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Add Payment Method</title>
+    <title>Become Guide</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<div id="pay">
+<div id="becomeguide">
 
     <nav>
         <div class="container">
@@ -36,24 +36,35 @@
 
     <section>
         <div class="container">
-            <div id="payment">
-                <h1> Add New Payment Method</h1>
-                <div class="form-pay">
+            <div id="guide">
+                <h1> Complete Your Profile</h1>
+                <div class="form-guide">
                     <select name="" class="dd">
-                        <option value="0">Select Bank</option>
-                        <option value="1">Bank Central Asia (BCA)</option>
-                        <option value="2">Bank Rakyat Indonesia (BRI)</option>
-                        <option value="3">Bank Negara Indonesia (BNI)</option>
-                        <option value="4">Bank Mandiri</option>
+                        <option value="0">Gender</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Other</option>
                     </select>
-                    <input type="text" name="pass" class="inputtext single" placeholder="Account Number">
-                    <input type="text" name="pass" class="inputtext single" placeholder="Account holder's Name">
-                    <button type="button" class="btn-add-pay">Add Account</button>
+                    <input type="text" name="guide" class="inputtext single" placeholder="Experience">
+                    <input type="text" name="guide" class="inputtext single" placeholder="Last Education">
+                    <input type="text" name="guide" class="inputtext single" placeholder="Languange Ability">
+                    <p>Upload our tour guide Certificate here</p>
+
+                    <input type="file" id="myFile"><br><br>
+
+                    <button type="button" class="btn-add-guide"> <a href="profile.html">Submit</a></button>
                 </div>
             </div>
         </div>
     </section>
 </div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myFile");
+        x.disabled = true;
+    }
+</script>
 
 </body>
 </html>
