@@ -126,6 +126,29 @@ nav ul li {
     font-size: x-large;
 }
 
+.keterangan {
+    grid-template-columns: repeat(2, auto);
+}
+
+
+section .container .keterangan .deskripsi {
+    padding: 2%;
+    margin-left: 10%;
+}
+
+section .container .keterangan #works {
+    float: right;
+    margin-right: 15%;
+}
+
+section .container .keterangan img {
+    float: right;
+    margin-left: -50%;
+    margin-right: 15%;
+    margin-top: -15%;
+    max-height: 125px;
+}
+
 .popup {
     display: none;
     position: absolute;
@@ -220,34 +243,40 @@ nav ul li {
     list-style: none;
 }
 
-section .container .deskripsi {
-    display: grid;
-    list-style-type: none;
-    padding: 2%;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
-    margin-left: 20%;
+footer .ket {
+    background-color: #8e9191;
+    color: #FFFFFF;
+    padding: 5px;
 }
 
+footer .ket .about {
+    display: grid;
+    list-style-type: none;
+    margin-right: 52.5%;
+    grid-area: footer;
+    text-align: right;
+}
 
-footer .about {
+footer .ket .follow {
     display: grid;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(5, auto);
     grid-area: footer;
+    float: right;
+    margin-right: 42.5%;
+    margin-top: -6%;
 }
 
 footer .bottom {
     text-align: center;
     font-size: 14px;
+
 }
 
-#peta img{
+#peta img {
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
 }
 
@@ -259,7 +288,7 @@ footer .bottom {
 
 }
 
-.where #place{
+.where #place {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     width: 100%;
@@ -281,7 +310,7 @@ footer .bottom {
     float: right;
 }
 
-.jamtgl{
+.jamtgl {
     display: flex;
     grid-template-columns: repeat(2, auto);
 }
@@ -315,6 +344,7 @@ footer .bottom {
     font-size: 12px;
 }
 
+
 .icon {
     padding: 10px;
     background: dodgerblue;
@@ -322,6 +352,355 @@ footer .bottom {
     min-width: 50px;
     text-align: center;
 }
+
+/* ----------Nearbe Guide -------------- */
+
+section .guidenear {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+
+}
+
+.guidenear .container {
+    background-color: #ffffff;
+    border-bottom-color: #dedede;
+    border-radius: 5px;
+    padding: 5%;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .ratting .checked {
+     color: orange;
+ }
+
+.guidenear .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.guidenear .btn-book{
+    padding: 1%;
+    width: 100px;
+    background-color: #2aabd2;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    border-bottom: none;
+
+}
+
+/* ----------History -------------- */
+
+.icon .review {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.review {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+.review .rev {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.review-up {
+
+    margin-top: 10%;
+    object-position: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100%;
+}
+
+.rev img{
+    border: 1px solid #ddd;;
+    padding: 5px;
+    width: 150px;
+    max-width: 150px;
+    object-position: left;
+}
+
+.review-up .guidenya img  {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    max-width: 150px;
+    align: left;
+}
+
+.review-up img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.review .waktu .icon {
+    padding: 0px;
+    color: #fbffff;
+    min-width: 20px;
+    text-align: center;
+}
+
+.review .biaya .icon {
+    padding: 0px;
+    color: #fbffff;
+    min-width: 20px;
+    text-align: center;
+}
+
+.reviwe-up {
+    width: 30%;
+    background-color: #2aabd2;
+    border-bottom: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Source sans pro";
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-position: center;
+}
+
+/* ----------History -------------- */
+
+.icon .history {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.history {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+.history .upcoming {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.history .upcoming #btn-upcoming {
+    width: 100%;
+    background-color: #2aabd2;
+    border-bottom: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Source sans pro";
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.history .recent {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.history .recent #btn-recent {
+    width: 100%;
+    background-color: #2aabd2;
+    border-bottom: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Source sans pro";
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.history-up {
+
+    margin-top: 10%;
+    object-position: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100%;
+}
+
+.history-up img{
+    border: 1px solid #ddd;;
+    padding: 5px;
+    width: 150px;
+    max-width: 150px;
+    object-position: left;
+}
+
+.history-up .guidenya img  {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    max-width: 150px;
+    align: left;
+}
+
+.history-up img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.history .waktu .icon {
+    padding: 0px;
+    color: #fbffff;
+    min-width: 20px;
+    text-align: center;
+}
+
+.history .biaya .icon {
+    padding: 0px;
+    color: #fbffff;
+    min-width: 20px;
+    text-align: center;
+}
+
+
+
+
+
+/* ----------INBOX -------------- */
+
+section .inbox {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.inbox .container {
+    background-color: #dcf7ff;
+    border-bottom-color: #dedede;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 10px 0;
+}
+
+.inbox .darker {
+    background-color: #f6fcff;
+    border-bottom-color: #dedede;
+}
+
+.inbox .container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.inbox .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.inbox .time-right {
+    float: right;
+    color: #aaa;
+}
+
+
+/* ----------chatroom -------------- */
+
+.chatroom h1{
+    text-align: center;
+}
+
+section .chatroom {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.chatroom .container {
+    background-color: #dcf7ff;
+    border-bottom-color: #dedede;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.chatroom .darker {
+    background-color: #f6fcff;
+    border-bottom-color: #dedede;
+}
+
+.chatroom .container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.chatroom .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.chatroom .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.chatroom .time-right {
+    float: right;
+    color: #aaa;
+}
+
+.chatroom .time-left {
+    float: left;
+    color: #999;
+}
+
+
+
+/* ----------Profil -------------- */
 
 
 #bio {
@@ -467,7 +846,7 @@ footer .bottom {
 
 }
 
-.container #payment h1{
+.container #payment h1 {
     text-align: center;
 }
 
@@ -524,7 +903,7 @@ footer .bottom {
 }
 
 
-.container #guide h1{
+.container #guide h1 {
     text-align: center;
 }
 
@@ -568,7 +947,7 @@ footer .bottom {
     transition: .3s ease;
 }
 
-#guide .btn-add-guide a:visited{
+#guide .btn-add-guide a:visited {
     color: #FFFFFF;
 }
 
