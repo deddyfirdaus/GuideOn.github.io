@@ -100,6 +100,7 @@ nav ul li {
     font-size: 15px;
 }
 
+/* --------------- INDEX ---------------------- */
 #banner img {
     background-size: auto;
     width: 100%;
@@ -274,10 +275,26 @@ footer .bottom {
 
 }
 
-#peta img {
+/*-----------------------HOME USER-------------------*/
+
+/*#peta img {
     background-position: center;
     background-size: cover;
     width: 100%;
+}*/
+
+.icon {
+    background: #ff2e83;
+    padding: 10px;
+    color: white;
+    min-width: 40px;
+    text-align: center;
+}
+
+
+#googleMap {
+    width: 100%;
+    height: 500px;
 }
 
 .where {
@@ -289,25 +306,7 @@ footer .bottom {
 }
 
 .where #place {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
     width: 100%;
-    margin-bottom: 1px;
-}
-
-.where #date {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    width: 80%;
-    margin-bottom: 1px;
-}
-
-.where #time {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    width: 100%;
-    margin-bottom: 1px;
-    float: right;
 }
 
 .jamtgl {
@@ -315,15 +314,17 @@ footer .bottom {
     grid-template-columns: repeat(2, auto);
 }
 
-.icon {
-    padding: 10px;
-    background: #79c8ff;
-    color: white;
-    min-width: 20px;
-    text-align: center;
+.where #date {
+    width: 80%;
+    margin-bottom: 1px;
 }
 
-.inputtext {
+.where #time {
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+.pick .inputtext {
     width: 100%;
     padding: 12px;
     outline: none;
@@ -335,7 +336,7 @@ footer .bottom {
 }
 
 #guidedeket {
-    width: 1350px;
+    width: 100%;
     background-color: #353a50;
     color: #FFFFFF;
     border: 2px solid;
@@ -345,21 +346,12 @@ footer .bottom {
 }
 
 
-.icon {
-    padding: 10px;
-    background: dodgerblue;
-    color: white;
-    min-width: 50px;
-    text-align: center;
-}
-
 /* ----------Nearbe Guide -------------- */
 
 section .guidenear {
     margin: 0 auto;
     max-width: 800px;
     padding: 0 20px;
-
 }
 
 .guidenear .container {
@@ -372,9 +364,9 @@ section .guidenear {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
- .ratting .checked {
-     color: orange;
- }
+.ratting .checked {
+    color: orange;
+}
 
 .guidenear .container img {
     float: left;
@@ -384,7 +376,7 @@ section .guidenear {
     border-radius: 50%;
 }
 
-.guidenear .btn-book{
+.guidenear .btn-book {
     padding: 1%;
     width: 100px;
     background-color: #2aabd2;
@@ -432,7 +424,7 @@ section .guidenear {
     max-width: 100%;
 }
 
-.rev img{
+.rev img {
     border: 1px solid #ddd;;
     padding: 5px;
     width: 150px;
@@ -440,7 +432,7 @@ section .guidenear {
     object-position: left;
 }
 
-.review-up .guidenya img  {
+.review-up .guidenya img {
     border: 1px solid #ddd;
     border-radius: 50%;
     padding: 5px;
@@ -563,7 +555,7 @@ section .guidenear {
     max-width: 100%;
 }
 
-.history-up img{
+.history-up img {
     border: 1px solid #ddd;;
     padding: 5px;
     width: 150px;
@@ -571,7 +563,7 @@ section .guidenear {
     object-position: left;
 }
 
-.history-up .guidenya img  {
+.history-up .guidenya img {
     border: 1px solid #ddd;
     border-radius: 50%;
     padding: 5px;
@@ -597,9 +589,6 @@ section .guidenear {
     min-width: 20px;
     text-align: center;
 }
-
-
-
 
 
 /* ----------INBOX -------------- */
@@ -645,7 +634,7 @@ section .inbox {
 
 /* ----------chatroom -------------- */
 
-.chatroom h1{
+.chatroom h1 {
     text-align: center;
 }
 
@@ -685,7 +674,7 @@ section .chatroom {
 .chatroom .container img.right {
     float: right;
     margin-left: 20px;
-    margin-right:0;
+    margin-right: 0;
 }
 
 .chatroom .time-right {
@@ -697,7 +686,6 @@ section .chatroom {
     float: left;
     color: #999;
 }
-
 
 
 /* ----------Profil -------------- */
@@ -724,7 +712,7 @@ section .chatroom {
 
 .container #profile {
     grid-area: body;
-    width: 1000px;
+    width: 80%;
     height: auto;
     margin: auto;
     background-color: white;
