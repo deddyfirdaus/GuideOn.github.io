@@ -1,10 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Event</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/grid.css">
+    <link rel="icon" type="image/png" href="../../assets/img/guideonsq.png">
+    <link rel="stylesheet" href="../../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
+
+<div class="container">
+
+    <nav>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-brand">
+                    <a href="homeGuide.html">
+                        <img src="../../assets/img/guideon.png" alt="">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="profileGuide.html">Profile</a></li>
+                    <li><a href="inboxGuide.html">Inbox</a></li>
+                    <li><a href="tourist.html">Tourist</a></li>
+                    <li><a href="myTours.html">My Tours</a></li>
+                    <li><a href="event.html">Events</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+
+        <div class="history">
+
+            <div class="upcoming">
+                <h2>Upcoming</h2>
+
+                <button type="button" class="collapsible">
+
+                    <div class="history-up">
+
+                        <h5>Acceptenced</h5>
+
+                        <div class="kotanya">
+                            <img src="../../assets/img/jember.jpg">
+                            <h3>Jember</h3>
+                        </div>
+
+                        <hr class="onepixel">
+
+                        <div class="detailnya">
+
+                            <div class="guidenya">
+                                <img src="../../assets/img/mbake.png" alt="Forest">
+                                <h4>Jane Foster</h4>
+                                <p>Certified</p>
+                            </div>
+
+                            <div class="detail">
+                                <h4>Detail</h4>
+                                <div class="waktu">
+                                    <i class="fa fa-calendar icon"></i>
+                                    <p>16/11/2019</p>
+                                </div>
+
+                                <div class="biaya">
+                                    <i class="fa fa-get-pocket icon"></i>
+                                    <p>Rp500.000,00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+
+                <div class="content det" id="detail">
+                    <p>
+                        Refrensi Number : 18092010346272<br>
+                        Payment : Paid <br>
+                        Member : 5 People <br>
+                        Meeting Point : Kalimantan St
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="recent">
+                <h2>Recent</h2>
+
+                <button type="button" class="collapsible">
+                    <div class="history-up">
+
+                        <h5>Past</h5>
+
+                        <div class="kotanya">
+                            <img src="../../assets/img/jember.jpg">
+                            <h3>Jember</h3>
+                        </div>
+
+                        <hr class="onepixel">
+
+                        <div class="detailnya">
+
+                            <div class="guidenya">
+                                <img src="../../assets/img/mbake.png" alt="Forest">
+                                <h4>Jane Foster</h4>
+                                <p>Certified</p>
+                            </div>
+
+                            <div class="detail">
+                                <h4>Detail</h4>
+                                <div class="waktu">
+                                    <i class="fa fa-calendar icon"></i>
+                                    <p>10/10/2019</p>
+                                </div>
+
+                                <div class="biaya">
+                                    <i class="fa fa-get-pocket icon"></i>
+                                    <p>Rp700.000,00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+
+                <div class="content" id="det">
+                    <p>
+                        Refrensi Number : 18092010346272<br>
+                        Payment : Paid <br>
+                        Member : 5 People <br>
+                        Meeting Point : Kalimantan St
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
 
 </body>
 </html>
