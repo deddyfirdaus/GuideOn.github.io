@@ -2,13 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1423be5-fa28-449b-bce9-c7b75d006d0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coba.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/addNewDestination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/destination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/editDestination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/homeAdmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/guide/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/guide/homeGuide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/guide/inboxGuide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/guide/myTours.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/guide/profileGuide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/guide/tourist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI.xd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addPay.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.datetimepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.datetimepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/becomeGuide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatRoom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coba.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/history.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/homeUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nearBeGuide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviewOrder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +121,8 @@
       <workItem from="1572017816590" duration="1158000" />
       <workItem from="1572183771208" duration="1193000" />
       <workItem from="1572224248439" duration="2711000" />
-      <workItem from="1572263037488" duration="6697000" />
+      <workItem from="1572263037488" duration="16958000" />
+      <workItem from="1572303442401" duration="8287000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1571504599929</created>

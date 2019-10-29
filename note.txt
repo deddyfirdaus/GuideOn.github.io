@@ -1,5 +1,4 @@
 Kurang
 
 1. Halaman HomeUser
-- tambah API google Maps
-- javascript pickdate time
+- javascript picktime
