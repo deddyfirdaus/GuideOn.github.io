@@ -49,6 +49,7 @@ nav {
     /*min-height: 50px;*/
     background: #FFF;
     box-sizing: border-box;
+    box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
 }
 
 nav:after {
@@ -348,19 +349,9 @@ footer .bottom {
 
 section .guidenear {
     margin: 0 auto;
-    max-width: 800px;
     padding: 0 20px;
 }
 
-.guidenear .container {
-    background-color: #ffffff;
-    border-bottom-color: #dedede;
-    border-radius: 5px;
-    padding: 5%;
-    margin: 10px 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 .ratting .checked {
     color: orange;
@@ -374,7 +365,7 @@ section .guidenear {
     border-radius: 50%;
 }
 
-.guidenear .btn-book {
+.guidenear .card .btn-book {
     padding: 1%;
     width: 100px;
     background-color: #2aabd2;
@@ -384,6 +375,41 @@ section .guidenear {
     border-bottom: none;
 
 }
+
+
+.guidenear * {
+    box-sizing: border-box;
+}
+
+.guidenear .column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+
+}
+
+.guidenear .row {
+    margin: 0 -5px;
+    margin-top: 5%;
+}
+
+.guidenear .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.guidenear .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 10%;
+
+
+}
+
+
 
 /* ---------- Review -------------- */
 
@@ -1189,8 +1215,74 @@ section .chatroom {
 
 
 
+/*--------------------------GUIDE-----------------*/
+/*-----------------------HOME GUIDE--------------*/
+
+.guide * {
+    box-sizing: border-box;
+}
+
+.guide .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+
+}
+
+.guide .row {
+    margin: 0 -5px;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.guide .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.guide .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 10%;
+
+}
+
+/*-----------------------TOURIST--------------*/
+
+.tourist * {
+    box-sizing: border-box;
+}
+
+.tourist .column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+
+}
+
+.tourist .row {
+    margin: 0 -5px;
+    margin-top: 5%;
+}
+
+.tourist .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tourist .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 10%;
 
 
+}
 
 
 /*clear fix*/
