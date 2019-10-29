@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/grid.css">
+    <link rel="icon" type="image/png" href="../assets/img/guideonsq.png">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/js/jquery-ui.css" type="text/css"/>
+    <script src="../assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="../assets/js/jquery-ui.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<div class="container">
+
+    <nav>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-brand">
+                    <a href="homeUser.html">
+                        <img src="../assets/img/guideon.png" alt="">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="inbox.html">Inbox</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="homeUser.html">Near Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="booking">
+
+            <div class="book">
+
+                <div class="book-up">
+
+                    <div class="general">
+
+                        <div class="tmpt">
+                        <p>Location</p>
+                        <img src="../assets/img/jember.jpg">
+                        <h3>Jember</h3>
+                        </div>
+
+                        <div class="guidenya">
+                            <img src="../assets/img/mbake.png" alt="Forest">
+                            <h4>Jane Foster </h4>
+                            <p>Certified</p>
+                        </div>
+                    </div>
+
+                    <hr class="onepixel">
+
+                    <div class="detailnya">
+                        <div class="wkttmpt">
+                            <div class="order">
+                                <i class="fa fa-calendar icon"></i>
+                                <input type="text" id="date" class="datepicker" placeholder="Pick the date">
+                            </div>
+
+                            <div class="order">
+                                <input type="text" id="start" class="timepicker" placeholder="Chose time">
+                            </div>
+
+                            <div class="order">
+                                <input type="text" id="finish" class="timepicker" placeholder="Chose time">
+                            </div>
+
+                        </div>
+
+                        <div class="biaya">
+                            <i class="fa fa-get-pocket icon"></i>
+                            <h2>Total</h2>
+                            <p>Rp500.000,00</p>
+                        </div>
+
+                            <a href="reviewBooking.html">
+                            <button class="btn-booking">Booking</button>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    $(function () {
+        $('.datepicker').datepicker();
+    });
+</script>
+
+</body>
+</html>

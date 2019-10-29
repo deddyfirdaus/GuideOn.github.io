@@ -81,7 +81,7 @@ nav ul {
 
 .navbar ul li a:hover,
 .navbar ul li a:active {
-    text-decoration:none;
+    text-decoration: none;
     color: #ffbf41;
 }
 
@@ -296,31 +296,13 @@ footer .bottom {
     height: 500px;
 }
 
-.where {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    width: 100%;
-    margin-bottom: 5px;
-
-}
-
-.where #place {
-    width: 100%;
-}
-
-.jamtgl {
+.pick .where {
     display: flex;
     grid-template-columns: repeat(2, auto);
 }
 
-.where #date {
-    width: 80%;
-    margin-bottom: 1px;
-}
-
-.where #time {
+.where #place {
     width: 100%;
-    margin-bottom: 1px;
 }
 
 .pick .inputtext {
@@ -409,7 +391,106 @@ section .guidenear {
 
 }
 
+/* ---------- Booking -------------- */
 
+.icon .booking {
+    padding: 10px;
+    color: white;
+}
+
+.booking {
+    margin-bottom: 5px;
+    padding: 5%;
+}
+
+.booking .book-up {
+    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.book-up {
+    width: 30%;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #444444;
+    padding: 10px;
+}
+
+.book img {
+    border: 1px solid #ddd;;
+    padding: 5px;
+    width: 150px;
+    max-width: 150px;
+}
+
+.book-up .guidenya img {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    max-width: 150px;
+}
+
+.book-up img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.wkttmpt {
+    display: flex;
+    grid-template-columns: repeat(2, auto);
+}
+
+.order {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+.general {
+    display: flex;
+    grid-template-columns: repeat(2, auto);
+}
+
+.general .guidenya{
+    margin-left: 30%;
+    text-align: center;
+}
+
+.order #date {
+    width: 80%;
+    margin-bottom: 1px;
+}
+
+.booking .waktu .icon {
+    padding: 0px;
+    color: #fbffff;
+    min-width: 20px;
+}
+
+.book .biaya .icon {
+    padding: 0px;
+    color: #fbffff;
+    min-width: 20px;
+    text-align: center;
+}
+
+.btn-booking{
+    background-color: #3aa8ff;
+    color: #fff;
+    border: none;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+
+}
 
 /* ---------- Review -------------- */
 
@@ -583,7 +664,7 @@ section .guidenear {
     background-color: #ffffff;
 }
 
-.history-up{
+.history-up {
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -596,7 +677,7 @@ section .guidenear {
     color: white;
     width: 20%;
     border-top-left-radius: 10px;
-    border-bottom-right-radius:10px ;
+    border-bottom-right-radius: 10px;
 }
 
 .history #detail {
@@ -644,7 +725,7 @@ section .guidenear {
     align: left;
 }
 
-.history .guidenya{
+.history .guidenya {
     text-align: center;
     margin-left: 5%;
 }
@@ -653,18 +734,18 @@ section .guidenear {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-.history .detail{
+.history .detail {
     margin-left: 30%;
 }
 
-.history-up .kotanya{
+.history-up .kotanya {
     display: flex;
     width: 100%;
     margin-bottom: 5px;
     padding-left: 30%;
 }
 
-.history-up .kotanya h3{
+.history-up .kotanya h3 {
     margin-left: 2%;
 }
 
@@ -690,12 +771,13 @@ section .guidenear {
 
 }
 
-.history .waktu{
+.history .waktu {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     width: 100%;
     margin-bottom: 5px;
 }
+
 .history .biaya {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -799,24 +881,25 @@ section .chatroom {
     color: #999;
 }
 
-.chatroom #blsanchat{
+.chatroom #blsanchat {
     height: 50px;
     width: 100%;
     border: none;
 }
 
-.chatroom .blschat{
+.chatroom .blschat {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     width: 100%;
     margin-bottom: 5px;
 }
 
-.chatroom .blschat img{
+.chatroom .blschat img {
     height: 20%;
     width: 20%;
     margin-left: 3%;
 }
+
 /* ----------Profil -------------- */
 
 
@@ -1134,14 +1217,12 @@ section .chatroom {
 }
 
 
-
-
 /*----------------Destination Admin-------------------*/
 
 
- .place * {
-     box-sizing: border-box;
- }
+.place * {
+    box-sizing: border-box;
+}
 
 .place .column {
     float: left;
@@ -1211,8 +1292,6 @@ section .chatroom {
 .btn-add-dest a:visited {
     color: #fff;
 }
-
-
 
 
 /*--------------------------GUIDE-----------------*/

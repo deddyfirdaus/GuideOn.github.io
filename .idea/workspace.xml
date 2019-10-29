@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1423be5-fa28-449b-bce9-c7b75d006d0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/booking.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup/UI.xd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guide/homeGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/guide/homeGuide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guide/myTours.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/guide/myTours.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guide/tourist.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/guide/tourist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeUser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockup/mockup.xd" beforeDir="false" afterPath="$PROJECT_DIR$/mockup/mockup.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/addPay.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/addPay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/becomeGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/becomeGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/chatRoom.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/chatRoom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/inbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/inbox.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/nearBeGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/nearBeGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/reviewOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/reviewBooking.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +114,8 @@
       <workItem from="1572183771208" duration="1193000" />
       <workItem from="1572224248439" duration="2711000" />
       <workItem from="1572263037488" duration="16958000" />
-      <workItem from="1572303442401" duration="17134000" />
+      <workItem from="1572303442401" duration="18098000" />
+      <workItem from="1572323908372" duration="4366000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1571504599929</created>
