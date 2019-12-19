@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/grid.css">
+    <link rel="icon" type="image/png" href="../assets/img/guideonsq.png">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/js/jquery-ui.css" type="text/css"/>
+    <script src="../assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="../assets/js/jquery-ui.js" type="text/javascript"></script>
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-brand">
+                <a href="homeUser.html">
+                    <img src="../assets/img/guideon.png" alt="">
+                </a>
+            </div>
+            <ul>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="inbox.html">Inbox</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="payment">
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form action="">
+
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>Billing</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="email" placeholder="john@example.com">
+                            <label for="adr"><i class="fa fa-address-card-o"></i>Phone Number</label>
+                            <input type="text" id="adr" name="address" placeholder="Phone Number">
+                            <label for="city"><i class="fa fa-institution"></i>Country</label>
+                            <input type="text" id="city" name="city" placeholder="United Kingdom">
+
+                            <label>
+                                <h4>Traveler's detail</h4>
+                                <input type="checkbox" checked="checked" name="sameadr"> Same as billing daetails
+                            </label>
+
+                            <h4>Information requested by the local partner</h4>
+                            <h5>
+                                Please add the address of your accommodation. The local partner needs this for planning
+                                pickup.
+                                Note: your pickup point may differ from the address you provide. You can also add this
+                                address later.
+                            </h5>
+
+                            <input type="text" id="" name="city" placeholder="Enter an address">
+                            <div id="peta">
+                                <div id="googleMap"></div>
+                            </div>
+
+
+                            <h3>Select payment method</h3>
+                            <label class="select">
+                                <input type="radio" checked="checked" name="radio">
+                                <span class="checkmark"></span>
+                                <div class="icon-container">
+                                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                                    <i>Credit Or debit Card</i>
+                                </div>
+                            </label>
+
+                            <label class="select">
+                                <input type="radio" checked="checked" name="radio">
+                                <span class="checkmark"></span>
+                                <div class="icon-container">
+                                    <i class="fa fa-google-wallet" style="color:orange;"></i>
+                                    <i>Google Pay</i>
+                                </div>
+                            </label>
+                        </div>
+
+
+                        <div class="col-50">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label><h3>Total(1 Item)</h3></label>
+                                    </div>
+                                    <div class="col-50">
+                                        <label><h3>Rp450.000</h3></label>
+                                    </div>
+                                </div>
+
+                                <img src="../assets/img/papuma.jpg" alt="Avatar" style="width:100%;">
+                                <h3>Papuma Beach</h3>
+                                <h4>Jember: Customizable Half-Day Tour Nature</h4>
+                                <h5>Jember: Customizable Half-Day Tour Nature</h5>
+                                <h5>December 28, 2019 7:00 AM</h5>
+
+                                <div class="row rincian">
+                                    <div class="col-50">
+                                        <h5>1 x Group up to 5 (1 Person)</h5>
+                                    </div>
+                                    <div class="col-50">
+                                        <h4 class="price1">Rp450.000</h4>
+                                    </div>
+                                </div>
+
+                                <h5 class="language">Language: English</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="Procesed Payment" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+<script>
+    // fungsi initialize untuk mempersiapkan peta
+    function initialize() {
+        var propertiPeta = {
+            center: new google.maps.LatLng(-8.265243, 113.0929783, 9),
+            zoom: 9,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+    }
+
+    // event jendela di-load
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+
+</body>
+</html>
